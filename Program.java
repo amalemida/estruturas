@@ -5,5 +5,10 @@ public class Program {
 
         Power power = new Power();
         System.out.println(power.recursive(2, 3));
+
+        int array[] = {2,4,10,19,27,38,47,49,50,55};
+        BinarySearch bs = new BinarySearch();
+        System.out.println(bs.recursive(array,0, array.length, 50));
+        
     }
 }
